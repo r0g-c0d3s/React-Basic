@@ -6,6 +6,7 @@ import ButtonAppBar from "./Components/nav";
 // import Dest from "./Components/Dest";
 import Spread from "./Components/Spread";
 import Ternary from "./Components/Ternary";
+import Props from "./Components/Props";
 
 function App() {
   let my = {
@@ -14,6 +15,8 @@ function App() {
   function click() {
     alert("Hello!");
   }
+
+  const name = "BATMAN"
 
   return (
     <div className="App" style={my}>
@@ -29,6 +32,7 @@ function App() {
       <Dest /> */}
       <Spread />
       <Ternary />
+      <Props myname={name} />
     </div>
   );
 }

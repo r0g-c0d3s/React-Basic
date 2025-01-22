@@ -17,11 +17,20 @@ export default function Ternary() {
       <h1>A is 78</h1>
     );
   };
+  let dark = true;
   return (
     <div>
       <h1>Ternary</h1>
       {Text()}
       {/* <Text /> */}
+      <h2
+        style={{
+          backgroundColor: dark ? "white" : "black",
+          color: dark ? "black" : "white"
+        }}
+      >
+        Lorem uwffwu rgvdvdfov refef ferf eferfscsqefsdcferffczsns{" "}
+      </h2>
     </div>
   );
 }
