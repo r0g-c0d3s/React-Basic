@@ -12,6 +12,12 @@ export default function State() {
   const [color, setColor] = useState("Blue");
 
   const [phone, setPhone] = useState("");
+
+  const [user, setUser] = useState({ name: "", email: "" });
+  const handleChange = (e) => {
+    
+  }
+
   return (
     <div>
       <h1>State</h1>
@@ -31,6 +37,8 @@ export default function State() {
       >
         -
       </Button>
+      <hr />
+      <br />
       <h1>My name is : {name}</h1>
       <Button onMouseEnter={() => setName("Batman")} variant="contained">
         Batman
@@ -65,10 +73,14 @@ export default function State() {
       </Button>
       <br />
       <h1>My phone number is {phone}</h1>
-      <TextField
-        onChange={(e) => setPhone(e.target.value)}
-        type="number"
-      />
+      <TextField onChange={(e) => setPhone(e.target.value)} type="number" />
+      <hr />
+      <br />
+      <h4>Name : {user.name}</h4>
+      <h4>E-mail : {user.email}</h4>
+      <TextField onChange={handleChange} type="text" name="name" placeholder="enter your name" />
+      <br />
+      <TextField onChange={handleChange}  type="text" name="email" placeholder="enter your email" />
       <br />
     </div>
   );
