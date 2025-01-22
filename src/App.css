@@ -10,7 +10,7 @@ img{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 2px solid rgb(255, 255, 254);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 button{
@@ -30,11 +30,11 @@ button:hover{
 }
 
 h1{
-  color: #fff;
+  color: #000000;
 }
 
 Link{
-  color: #fff;
+  color: #000000;
 }
 
 

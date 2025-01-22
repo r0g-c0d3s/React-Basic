@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "@mui/material/Button";
+import { TextField } from "@mui/material";
 
 export default function State() {
   const [count, setCount] = useState(0);
@@ -8,7 +9,9 @@ export default function State() {
   };
   const [name, setName] = useState("Batman");
 
-  const [color, setColor] = useState('Blue');
+  const [color, setColor] = useState("Blue");
+
+  const [phone, setPhone] = useState("");
   return (
     <div>
       <h1>State</h1>
@@ -48,17 +51,25 @@ export default function State() {
       <Button onMouseEnter={() => setName("Moon Knight")} variant="contained">
         Moon Knight
       </Button>
-
-      <h1 style={{color}}>{color}</h1>
+      <h1 style={{ color }}>{color}</h1>
       <Button onMouseEnter={() => setColor("Red")} variant="contained">
         Red
-      </Button> <br />
+      </Button>{" "}
+      <br />
       <Button onMouseEnter={() => setColor("Pink")} variant="contained">
         Pink
-      </Button> <br />
+      </Button>{" "}
+      <br />
       <Button onMouseEnter={() => setColor("Green")} variant="contained">
         Green
-      </Button> <br />
+      </Button>{" "}
+      <br />
+      <h1>My phone number is {phone}</h1>
+      <TextField
+        onChange={(e) => setPhone(e.target.value)}
+        type="number"
+      />{" "}
+      <br />
     </div>
   );
 }
