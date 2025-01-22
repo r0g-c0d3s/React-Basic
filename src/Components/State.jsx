@@ -28,8 +28,20 @@ export default function State() {
         -
       </Button>
       <h1>My name is : {name}</h1>
+      <Button onClick={() => setName("Batman")} variant="contained">
+        Batman
+      </Button> <br />
       <Button onClick={() => setName("Superman")} variant="contained">
-        Change
+        Superman
+      </Button> <br />
+      <Button onClick={() => setName("Flash")} variant="contained">
+        Flash
+      </Button> <br />
+      <Button onClick={() => setName(" Iron-Man")} variant="contained">
+        Iron-Man
+      </Button> <br />
+      <Button onClick={() => setName("Moon Knight")} variant="contained">
+        Moon Knight
       </Button>
     </div>
   );
