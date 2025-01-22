@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import "./style.css";
 export default function Home() {
+
+  let nav = useNavigate()
+  function click() {
+    nav('/arrow')
+  }
   return (
     <div>
         <h1 style={{color:"#fff"}}>This is Home</h1>
@@ -13,6 +18,7 @@ export default function Home() {
         <Link className='link' to = '/dest'>dest</Link>
         <Link className='link' to = '/props'>props</Link>
 
+        <button onClick={click}>Arrow</button>
     </div>
   )
 }
