@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Props({ myname, age,click }) {
+export default function Props({ myname, age,click}) {
   const Fun = (props) => <h1>I'm Vengence{props.name}</h1>;
 
   return (
@@ -11,7 +11,7 @@ export default function Props({ myname, age,click }) {
       <Fun name= " Batman"/>
       <h2>{myname}</h2>
       <h2>{age}</h2>
-    <button onClick={click}>Click Me</button>
+    <button onClick={Props.click}>Click Me</button>
     </div>
   );
 }
