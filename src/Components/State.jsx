@@ -15,7 +15,7 @@ export default function State() {
 
   const [user, setUser] = useState({ name: "", email: "" });
   const handleChange = (e) => {
-    
+    setUser({[e.target.name]:e.target.value})
   }
 
   return (
