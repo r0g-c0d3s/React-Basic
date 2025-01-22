@@ -12,13 +12,12 @@ function App() {
   let my = {
     color: "#fff",
   };
+
   function click() {
     alert("Hello!");
   }
 
   const name = "BATMAN";
-
-
 
   return (
     <div className="App" style={my}>
@@ -34,7 +33,7 @@ function App() {
       <Dest /> */}
       <Spread />
       <Ternary />
-      <Props myname={name} age={25} click={click}/>
+      <Props myname={name} age={25} click={click} />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Props({ myname, age,click}) {
+export default function Props({ myname, age}) {
   const Fun = (props) => <h1>I'm Vengence{props.name}</h1>;
 
   return (
