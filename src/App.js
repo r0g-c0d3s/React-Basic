@@ -2,8 +2,8 @@ import "./App.css";
 import Arrow from "./Components/Arrow";
 import ButtonUsage from "./Components/Button";
 import ButtonAppBar from "./Components/nav";
-// import Array from "./Components/Array";
-// import Dest from "./Components/Dest";
+import Array from "./Components/Array";
+import Dest from "./Components/Dest";
 import Spread from "./Components/Spread";
 import Ternary from "./Components/Ternary";
 import Props from "./Components/Props";
@@ -45,7 +45,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/arrow" element={<Arrow />} />
         <Route path="/button" element={<ButtonUsage />} />
-      </Routes>
+        <Route path="/array" element={<Array />} />
+        <Route path="/spread" element={<Spread />} />
+        <Route path="/ternary" element={<Ternary />} />
+        <Route path="/dest" element={<Dest />} />
+        <Route path="/props" element={<Props />} />
+        </Routes>
     </BrowserRouter>
   );
 }
