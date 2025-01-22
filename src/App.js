@@ -8,6 +8,7 @@ import Spread from "./Components/Spread";
 import Ternary from "./Components/Ternary";
 import Props from "./Components/Props";
 import Home from "./Components/Home";
+import State from "./Components/State";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -50,8 +51,11 @@ function App() {
         <Route path="/ternary" element={<Ternary />} />
         <Route path="/dest" element={<Dest />} />
         <Route path="/props" element={<Props />} />
+        <Route path="/state" element={<State />} />
         </Routes>
     </BrowserRouter>
+   
+    
   );
 }
 

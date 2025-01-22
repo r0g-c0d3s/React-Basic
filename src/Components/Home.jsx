@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Button from '@mui/material/Button';
 import "./style.css";
 export default function Home() {
 
@@ -17,8 +18,9 @@ export default function Home() {
         <Link className='link' to = '/ternary'>ternary</Link>
         <Link className='link' to = '/dest'>dest</Link>
         <Link className='link' to = '/props'>props</Link>
+        <Link className='link' to = '/state'>State</Link>
 
-        <button onClick={click}>Arrow</button>
+        <Button onClick={click} variant='contained'>Arrow</Button>
     </div>
   )
 }
