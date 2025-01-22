@@ -18,6 +18,8 @@ function App() {
 
   const name = "BATMAN";
 
+
+
   return (
     <div className="App" style={my}>
       <ButtonAppBar />
@@ -32,7 +34,7 @@ function App() {
       <Dest /> */}
       <Spread />
       <Ternary />
-      <Props myname={name} age={25} />
+      <Props myname={name} age={25} click={click}/>
     </div>
   );
 }
