@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Props() {
+export default function Props(props) {
   return (
-    <div>Props</div>
+    <div>
+        <h1>{props.name}</h1>
+    </div>
   )
 }
