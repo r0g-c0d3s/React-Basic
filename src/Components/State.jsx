@@ -34,19 +34,19 @@ export default function State() {
       <h1>My name is : {name}</h1>
       <Button onMouseEnter={() => setName("Batman")} variant="contained">
         Batman
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setName("Superman")} variant="contained">
         Superman
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setName("Flash")} variant="contained">
         Flash
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setName(" Iron-Man")} variant="contained">
         Iron-Man
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setName("Moon Knight")} variant="contained">
         Moon Knight
@@ -54,21 +54,21 @@ export default function State() {
       <h1 style={{ color }}>{color}</h1>
       <Button onMouseEnter={() => setColor("Red")} variant="contained">
         Red
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setColor("Pink")} variant="contained">
         Pink
-      </Button>{" "}
+      </Button>
       <br />
       <Button onMouseEnter={() => setColor("Green")} variant="contained">
         Green
-      </Button>{" "}
+      </Button>
       <br />
       <h1>My phone number is {phone}</h1>
       <TextField
         onChange={(e) => setPhone(e.target.value)}
         type="number"
-      />{" "}
+      />
       <br />
     </div>
   );
