@@ -16,7 +16,7 @@ function App() {
     alert("Hello!");
   }
 
-  const name = "BATMAN"
+  const name = "BATMAN";
 
   return (
     <div className="App" style={my}>
@@ -32,7 +32,7 @@ function App() {
       <Dest /> */}
       <Spread />
       <Ternary />
-      <Props myname={name} />
+      <Props myname={name} age={25} />
     </div>
   );
 }
