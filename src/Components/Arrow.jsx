@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export default function Arrow() {
   function a() {
@@ -24,7 +25,13 @@ export default function Arrow() {
         </b>
       </h1>
       <Button onClick={a}>qwerty</Button>
-      <Button onClick={() => b(" djh")}>uiop</Button>
+      <Button onClick={() => b(" djh")}>uiop</Button> 
+      <Link className='link' to = '/button'>button</Link>{/*link the pages */}
+        <Link className='link' to = '/array'>array</Link>
+        <Link className='link' to = '/spread'>spread</Link>
+        <Link className='link' to = '/ternary'>ternary</Link>
+        <Link className='link' to = '/dest'>dest</Link>
+        <Link className='link' to = '/props'>props</Link>
     </div>
   );
 }
