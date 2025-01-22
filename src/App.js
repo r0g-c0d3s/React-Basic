@@ -7,6 +7,7 @@ import ButtonAppBar from "./Components/nav";
 import Spread from "./Components/Spread";
 import Ternary from "./Components/Ternary";
 import Props from "./Components/Props";
+import Home from "./Components/Home";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -38,15 +39,14 @@ function App() {
     //   <Props myname={name} age={25} click={click} />
     // </div>
 
-   <BrowserRouter>
-   <Routes>
-    <Route/>
-   </Routes>
-   </BrowserRouter>
-
-
-
-
+    <BrowserRouter>
+      <Routes>
+        
+        <Route path="/" element={<Home />} />
+        <Route path="/arrow" element={<Arrow />} />
+        <Route path="/button" element={<ButtonUsage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
