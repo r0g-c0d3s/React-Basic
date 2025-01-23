@@ -13,7 +13,7 @@ import Effect from "./Components/Effect";
 import Color from "./Components/color";
 import Error from "./Components/Error";
 import BasicTable from "./Components/MUI/Table"
-import MUI from "./Components/MUI/MUI"
+import MUI from "./Components/MUI"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

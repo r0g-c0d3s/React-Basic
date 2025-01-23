@@ -7,6 +7,26 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
+// const rows = [
+//   {
+//     name:"Batman",
+//     phone: 1233456677,
+//     email: "batman@gotham.com",
+//     address : "Gotham"
+//   },
+//   {
+//     name:"Batman",
+//     phone: 1233456677,
+//     email: "batman@gotham.com",
+//     address : "Gotham"
+//   },{
+//     name:"Batman",
+//     phone: 1233456677,
+//     email: "batman@gotham.com",
+//     address : "Gotham"
+//   },
+// ]
+
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
 }
