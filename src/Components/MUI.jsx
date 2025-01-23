@@ -1,6 +1,7 @@
 import React from "react";
 import Table from "./MUI/Table";
 import Button from "./MUI/Button";
+import AccordionUsage from "./MUI/Accordion"
 
 export default function MUI() {
   return (
@@ -11,6 +12,8 @@ export default function MUI() {
       <Table />
       <br />
       <Button />
+      <br />
+      <AccordionUsage/>
     </div>
   );
 }
