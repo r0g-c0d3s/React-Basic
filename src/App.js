@@ -1,6 +1,6 @@
 import "./App.css";
 import Arrow from "./Components/Arrow";
-import ButtonUsage from "./Components/Button";
+import ButtonUsage from "./Components/MUI/Button";
 import ButtonAppBar from "./Components/nav";
 import Array from "./Components/Array";
 import Dest from "./Components/Dest";
@@ -12,6 +12,8 @@ import State from "./Components/State";
 import Effect from "./Components/Effect";
 import Color from "./Components/color";
 import Error from "./Components/Error";
+import BasicTable from "./Components/MUI/Table"
+import MUI from "./Components/MUI/MUI"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -57,6 +59,9 @@ function App() {
         <Route path="/state" element={<State />} />
         <Route path="/effect" element={<Effect />} />
         <Route path="/color" element={<Color />} />
+        <Route path="/table" element={<BasicTable />} />
+        <Route path="/mui" element={<MUI />} />
+
       </Routes>
     </BrowserRouter>
   );

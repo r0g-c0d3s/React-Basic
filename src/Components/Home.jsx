@@ -11,16 +11,32 @@ export default function Home() {
   return (
     <div>
         <h1 style={{color:"#fff"}}>This is Home</h1>
+        <br />
         <Link className='link' to = '/arrow'>Arrow</Link>
+        <br />
         <Link className='link' to = '/button'>button</Link>
+        <br />
         <Link className='link' to = '/array'>array</Link>
+        <br />
         <Link className='link' to = '/spread'>spread</Link>
+        <br />
         <Link className='link' to = '/ternary'>ternary</Link>
+        <br />
         <Link className='link' to = '/dest'>dest</Link>
+        <br />
         <Link className='link' to = '/props'>props</Link>
+        <br />
         <Link className='link' to = '/state'>State</Link>
+        <br />
         <Link className='link' to='/effect'>Effect</Link>
+        <br />
         <Link className='link' to='/color'>Color</Link>
+        <br />
+        <Link className='link' to='/table'>Table</Link>
+        <br />
+        <Link className='link' to='/mui'>MUI</Link>
+        <br />
+      
         <Button onClick={click} variant='contained'>Arrow</Button>
     </div>
   )
