@@ -7,7 +7,7 @@ export default function Color() {
     setColor(e.target.value);
   };
 
-  return <div style={{background:color,height:'100vh', width:'100vh',display:'flex',alignItems:'center',justifyContent:'center'}}>
+  return <div style={{background:color,height:'100vh', width:'900vh',display:'flex',alignItems:'center',justifyContent:'center'}}>
     <TextField onChange={handleChange} name='color' placeholder="color" type="text" value={color}></TextField>
   </div>;
 }
