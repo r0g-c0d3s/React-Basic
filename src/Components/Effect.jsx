@@ -10,17 +10,26 @@ export default function Effect() {
   useEffect(() => {
     setSquare(count * count);
   }, [count]);
+
+  //   let myname = localStorage.getItem("name");
+  localStorage.setItem("Counter", count);
+  localStorage.setItem("Square", square);
+ 
+
   return (
     <div>
       <h1>Effect</h1>
       <h2>Counter : {count}</h2>
       <h2>Square : {square}</h2>
       <Button
-        onMouseEnter={Increment}
-        onMouseLeave={Increment}
+        onClick={Increment}
         variant="contained"
       >
         +
+      </Button>
+      <br />
+      <Button onClick={()=>{ localStorage.clear(count,square)}} variant="contained">
+        Remove
       </Button>
     </div>
   );
