@@ -36,7 +36,7 @@ export default function Home() {
         <br />
         <Link className='link' to='/mui'>MUI</Link>
         <br />
-        <Link className='link' to='/api'>MUI</Link>
+        <Link className='link' to='/api'>API</Link>
         <br />
       
         <Button onClick={click} variant='contained'>Arrow</Button>

@@ -21,3 +21,13 @@ UseEffect hook: used to handel side effects in your react components.
 Local Storage : permanent cookies 
 
 Session storage : temporary cookies
+
+api methods : (axios)
+    .get
+	.push
+	.put
+	.delete
+
+exception handleing :  
+	.then()
+	.catch()
