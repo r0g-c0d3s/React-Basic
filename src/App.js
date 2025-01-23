@@ -14,6 +14,7 @@ import Color from "./Components/color";
 import Error from "./Components/Error";
 import BasicTable from "./Components/MUI/Table"
 import MUI from "./Components/MUI"
+import API from "./Components/API"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -61,6 +62,7 @@ function App() {
         <Route path="/color" element={<Color />} />
         <Route path="/table" element={<BasicTable />} />
         <Route path="/mui" element={<MUI />} />
+        <Route path="/api" element={<API />} />
 
       </Routes>
     </BrowserRouter>
