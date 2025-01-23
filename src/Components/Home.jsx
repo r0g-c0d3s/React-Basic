@@ -38,6 +38,8 @@ export default function Home() {
         <br />
         <Link className='link' to='/api'>API</Link>
         <br />
+        <Link className='link' to='/dog'>DOG</Link>
+        <br />
       
         <Button onClick={click} variant='contained'>Arrow</Button>
     </div>
