@@ -11,7 +11,6 @@ export default function Effect() {
     setSquare(count * count);
   }, [count]);
 
-  //   let myname = localStorage.getItem("name");
   localStorage.setItem("Counter", count);
   localStorage.setItem("Square", square);
  
