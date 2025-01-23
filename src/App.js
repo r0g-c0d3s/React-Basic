@@ -9,6 +9,8 @@ import Ternary from "./Components/Ternary";
 import Props from "./Components/Props";
 import Home from "./Components/Home";
 import State from "./Components/State";
+import Effect from "./Components/Effect";
+import Color from "./Components/color";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -42,7 +44,6 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        
         <Route path="/" element={<Home />} />
         <Route path="/arrow" element={<Arrow />} />
         <Route path="/button" element={<ButtonUsage />} />
@@ -52,10 +53,10 @@ function App() {
         <Route path="/dest" element={<Dest />} />
         <Route path="/props" element={<Props />} />
         <Route path="/state" element={<State />} />
-        </Routes>
+        <Route path="/effect" element={<Effect />} />
+        <Route path="/color" element={<Color />} />
+      </Routes>
     </BrowserRouter>
-   
-    
   );
 }
 

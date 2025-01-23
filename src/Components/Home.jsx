@@ -19,7 +19,8 @@ export default function Home() {
         <Link className='link' to = '/dest'>dest</Link>
         <Link className='link' to = '/props'>props</Link>
         <Link className='link' to = '/state'>State</Link>
-
+        <Link className='link' to='/effect'>Effect</Link>
+        <Link className='link' to='/color'>Color</Link>
         <Button onClick={click} variant='contained'>Arrow</Button>
     </div>
   )

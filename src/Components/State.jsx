@@ -28,7 +28,7 @@ export default function State() {
         variant="contained"
       >
         +
-      </Button>{" "}
+      </Button>
       <br />
       <Button
         onMouseEnter={() => setCount(count - 1)}
