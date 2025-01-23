@@ -7,4 +7,6 @@ export default function Error() {
         <audio src="./mixkit-sci-fi-ship-siren-alert-1653 (1).wav" autoPlay loop ></audio>
     </div>
   )
+
+  
 }
