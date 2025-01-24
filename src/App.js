@@ -16,6 +16,7 @@ import BasicTable from "./Components/MUI/Table"
 import MUI from "./Components/MUI"
 import API from "./Components/API"
 import  Dog from "./Components/Dog"
+import BasicTablee from "./Components/TableAPI"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -65,6 +66,7 @@ function App() {
         <Route path="/mui" element={<MUI />} />
         <Route path="/api" element={<API />} />
         <Route path="/dog" element={<Dog />} />
+        <Route path="/tableapi" element={<BasicTablee />} />
 
       </Routes>
     </BrowserRouter>

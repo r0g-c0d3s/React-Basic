@@ -40,6 +40,8 @@ export default function Home() {
         <br />
         <Link className='link' to='/dog'>DOG</Link>
         <br />
+        <Link className='link' to='/tableapi'>TableAPI</Link>
+        <br />
       
         <Button onClick={click} variant='contained'>Arrow</Button>
     </div>
