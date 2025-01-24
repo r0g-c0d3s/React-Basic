@@ -17,7 +17,6 @@ button{
 }
 
 button:hover{
-  background-color: rgb(77, 215, 31);
   color: rgb(82, 87, 82);
   border-radius: 5px;
   cursor: pointer;
